@@ -5,25 +5,25 @@ class PersonalTest {
     this.page = 0; // 0:intoro, 1:test, 2:result 현재 페이지
     this.progress = 0; //현재 질문 단계
     this.questions = {
-      EI: [
+      First: [
         {
           question: '빨갛고 예쁜 과일은?',
           answer: { a: '사과', b: '배', c: '바나나' },
         },
       ],
-      SN: [
+      Second: [
         {
           question: '노랗고 맛있는 과일은?',
           answer: { a: '사과', b: '배', c: '바나나' },
         },
       ],
-      TF: [
+      Third: [
         {
           question: '피자에 넣으면 맛 없는 과일은?',
           answer: { a: '파인애플', b: '배', c: '토마토' },
         },
       ],
-      JP: [
+      Forth: [
         {
           question: '심심하다',
           answer: { a: '그래서', b: '이러고', c: '있다' },
